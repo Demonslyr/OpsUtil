@@ -8,7 +8,7 @@ remote.host = 'c-00-master-00'
 remote.user = 'dp_jenkins'
 remote.allowAnyHosts = true
 dockerRepo = "atriarchsystems"
-appName = "CuratorContainer"
+appName = "curatorcontainer"
 }
 stage('build'){
 def buildout = sh(returnStdout: true, script: "docker build -t ${appName} -f ./Dockerfile .")
