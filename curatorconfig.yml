@@ -3,7 +3,7 @@
 # not a Python "NoneType"
 client:
   hosts:
-    - 192.168.1.226
+    - elastiserver.drinkpoint.me
   port: 9200
   url_prefix:
   use_ssl: False
